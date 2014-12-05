@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <h1>Lauren Podolnick</h1>
+  </head>
+  <body>
+    <img />
+    <h3>Two truths and a lie:</h3>
+      <li><input id = "first" type = "checkbox">I appeared in an educational video about space camp when I was fourteen.</li>
+      <li><input id = "second" type = "checkbox">I caught and ate a piranha in the Amazon.</li>
+      <li><input id = "third" type = "checkbox">My middle name begins with the letter Z.</li>
+      <br>
+      <a href = "http://marc.princesspeach.nyc:8080">Now visit my friend Marc's page!</a>
+    <script>
+    var input = document.querySelector("input");
+    var first = document.querySelector("#first");
+    var image = document.query
+    first.addEventListener("click",function(){
+        alert("I wish.");
+        first.checked = false;
+    });
+
+    var second = document.querySelector("#second");
+    second.addEventListener("click",function(){
+        alert("It tasted gross.");
+        second.checked = false;
+    });
+
+    var third = document.querySelector("#third");
+    third.addEventListener("click",function(){
+        alert("Yep, it's Zitomer.");
+        third.checked = false;
+    });
+    </script>
+  </body>
+</html>
